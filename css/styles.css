@@ -157,7 +157,7 @@ nav ul li ul li:hover {
 	margin-left: auto;
 	margin-right: auto;
 	border: white 2px solid;
-	background-image: url("../img/home-header.png");
+	background-image: url("../img/home-header.jpg");
 	background-size: cover;
 	background-position: center;
 	height: 500px;
@@ -187,7 +187,7 @@ nav ul li ul li:hover {
 	margin-left: auto;
 	margin-right: auto;
 	border: white 2px solid;
-	background-image: url("../img/resized3-header.png");
+	background-image: url("../img/resized3-header.jpg");
 	height: 500px;
 	box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
 	box-shadow: inset 0px 4px 40px 3px rgba(0, 0, 0, 0.2);
@@ -239,7 +239,7 @@ nav ul li ul li:hover {
 	margin-left: auto;
 	margin-right: auto;
 	border: white 2px solid;
-	background-image: url("../img/resized2-header.png");
+	background-image: url("../img/resized2-header.jpg");
 	height: 500px;
 	box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
 	box-shadow: inset 0px 4px 40px 3px rgba(0, 0, 0, 0.2);
@@ -406,7 +406,7 @@ main {
 	margin-left: auto;
 	margin-right: auto;
 	border: white 2px solid;
-	background-image: url("../img/rooms-header 2.png");
+	background-image: url("../img/rooms-header 2.jpg");
 	height: 500px;
 	box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
 	box-shadow: inset 0px 4px 40px 3px rgba(0, 0, 0, 0.2);
