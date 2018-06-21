@@ -377,6 +377,10 @@ main {
 
 }
 
+.bob {
+	padding: 50px;
+}
+
 	/* MAIN STYLES - section1- about page */
 
 	.about-info-left {
@@ -519,9 +523,9 @@ transition: color 0.5s ease;
 }
 
 .info-contact {
-	width: 40%;
-	margin: 40px;
-	padding-left: 100px;
+	width: 50%;
+	padding-left: 40px;
+	padding-top: 40px;
 }
 
 .info-contact h2 {
@@ -538,7 +542,6 @@ transition: color 0.5s ease;
 	text-transform: uppercase;
 	font-weight: 500;
 	letter-spacing: 3px;
-	padding-top: 100px;
 	}
 
 
@@ -553,7 +556,7 @@ transition: color 0.5s ease;
 }
 
 .info-contact p {
-	width: 750px;
+	width: 600px;
 	margin-top: 40px;
 	font-size: 18px;
 	color: #353535;
@@ -583,7 +586,7 @@ transition: color 0.5s ease;
 
 .telephone-numbers {
 	padding: 0;
-	margin: 0;
+	width: 300px;
 }
 
 .telephone-numbers ul {
@@ -641,29 +644,45 @@ transition: color 0.5s ease;
 
 }
 
-
-
-
 .location {
 	margin: 0;
 	padding: 0;
 
 }
 
-.map iframe {
+.map {
 	float: right;
-	width: 900px;
-	margin-top: -200px;
-	padding: 50px;
-	height: 600px;
+	background-color: red;
+	margin-right: 100px;
+	margin-bottom: 100px;
+
+}
+
+.map iframe {
+	width: 400px;
+	
+	margin-top: 200px;
+	display: inline;
+
+
 
 }
 
 .contact-form {
-	background-color: red;
-	width: 600px;
-
 	
+	width: 600px;
+	margin: 0;
+	float: left;
+}
+
+
+.contact-form ul {
+	width: 600px;
+	margin: 0;
+	padding: 0;
+
+
+
 }
 
 
@@ -671,6 +690,10 @@ transition: color 0.5s ease;
 .field-divided {
 	border: 2px solid #D07828;
 
+}
+
+.field-long {
+	width: 400px;
 }
 
 
@@ -683,19 +706,44 @@ transition: color 0.5s ease;
 
 	}
 
-.contact-form  input[type="text"] {
-		padding: 30px;
+.contact-form input[type="text"] {
+		padding: 20px;
 		font-size: 15px;
 		font-family: 'Quicksand', sans-serif;
 		letter-spacing: 1px;
 		font-weight: 500;
 		border: 4px solid #D07828;
+		width: 100%;
 		
 	}
 
 .contact-form input[name="message"] {
 	padding-bottom: 200px;
 }
+
+.contact-form .submit-button-2 {
+padding: 20px;
+position: block;
+color: #D07828 ;
+border: #D07828 3px solid;
+letter-spacing: 2px;
+text-transform: uppercase;
+font-weight: 700;
+text-decoration: none;
+width: 200px;
+transition: color 0.5s ease;
+font-size: 15px;
+}
+
+.contact-form .submit-button-2:hover {
+padding: 20px;
+position: block;
+color: whitesmoke ;
+background-color: #D07828;
+}
+
+
+
 
 /* Main STYLES - section 1 - home page */
 
@@ -1005,8 +1053,8 @@ footer {
 
 /* FOOTER STYLES - e-mail subscription */
 
-form {
- 	width: 20%;
+	.new-form {
+ 	 width: 20%;
      float: right;
      position: relative;
      margin-right: 300px;
@@ -1016,7 +1064,7 @@ form {
 
 /* FOOTER STYLES - e-mail subscription - button */
 
-.subscribe-container {
+.new-form .subscribe-container {
     padding: 10px;
 	position: block;
 	width: 600px;
@@ -1027,7 +1075,7 @@ form {
 }
 
 
-input[type=text]  {
+.new-form input[type=text]  {
     width: 80%;
     padding: 12px;
     margin: 0px 0;
@@ -1039,7 +1087,7 @@ input[type=text]  {
 
 
 
-input[type=submit] {
+.new-form input[type=submit] {
     background-color: #eeccbb;
     color: white;
     border: none;
@@ -1057,12 +1105,12 @@ input[type=submit] {
 }
 
 
-input[type=submit]:hover {
+.new-form input[type=submit]:hover {
     background-color: #353535 ;
     color: whitesmoke;
 }
 
-input[placeholder="E-mail Address"] {
+.new-form input[placeholder="E-mail Address"] {
    font-family: 'Quicksand', sans-serif;
    font-weight: 500;
    font-size: 14px;
