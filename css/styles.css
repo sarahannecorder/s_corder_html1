@@ -255,7 +255,7 @@ nav ul li ul li:hover {
 	color: black;
 	display: block;
 	text-align: center;
-	margin-top: 90px;
+	margin-top: 130px;
 	padding: 0;
 	color: #353535;
 	font-size: 70px;
@@ -305,7 +305,7 @@ nav ul li ul li:hover {
 	margin-left: auto;
 	margin-right: auto;
 	border: white 2px solid;
-	background-image: url("../img/resized5-header.png");
+	background-image: url("../img/resized2-header.png");
 	height: 500px;
 	box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
 	box-shadow: inset 0px 4px 40px 3px rgba(0, 0, 0, 0.2);
@@ -316,11 +316,11 @@ nav ul li ul li:hover {
 	color: black;
 	display: block;
 	text-align: center;
-	margin-top: 115px;
+	margin-top: 180px;
 	padding: 0;
 	color: whitesmoke;
 	font-size: 70px;
-	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+	text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 	letter-spacing: 6px;
 	width: 50%;
 	margin-left: auto;
@@ -574,7 +574,7 @@ transition: color 0.5s ease;
 	}
 
 	.about-info-left p {
-	width: 1200px;
+	width: 1;
 	margin-top: 40px;
 	font-size: 18px;
 	color: #353535;
@@ -594,7 +594,6 @@ font-weight: 700;
 text-decoration: none;
 width: 80px;
 transition: color 0.5s ease;
-margin-top: -200px;
 
 
 }
@@ -989,6 +988,42 @@ margin-left: 80px;
 	transition: color 0.5s ease;
 	color: whitesmoke;
 } 
+
+.about-info-right {
+	margin: 0;
+	padding: 0;
+	
+}
+
+.rooms-images {
+	float: right;
+	margin-top: -1400px;
+	padding-top: 80px;
+	padding-right: 60px;
+
+}
+
+.rooms-1 {
+	float: right;
+	padding: 60px;
+	margin-top: -540px;
+
+
+}
+
+.rooms-2 {
+	float: right;
+	padding: 60px;
+	
+
+}
+
+.rooms-3 {
+	float: right;
+	padding: 60px;
+	margin-top: 540px;
+	margin-right: -760px;
+}
 
 
 /* Main STYLES - section 3 - Location */

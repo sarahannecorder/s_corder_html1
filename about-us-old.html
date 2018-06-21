@@ -5,6 +5,7 @@
 	<link rel="icon" href="favicon.png" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.css">
 
 
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
@@ -21,7 +22,7 @@
 
 
 <header>
-		<img src="img/logov2.png" alt="logo" title="Farm 215 logo">
+		<a href="index.html"><img src="img/logov2.png" alt="logo" title="Farm 215 logo"></a>
 
 
 
@@ -45,11 +46,11 @@
 	<ul id="drop-nav">
 		<li><a href="index.html">Home</a></li>
 		<li><a href="about-us.html">About Us</a></li>
-		<li><a href="#">Book A Room</a>
+		<li><a href="rooms.html">Book A Room</a>
 		<ul>
-			<li><a href="Protea Suites">Protea Suites</a></li>
-			<li><a href="Homestead">Homestead</a></li>
-			<li><a href="Restaurant">Restaurant</a></li>
+			<li><a href="rooms.html">Protea Suites</a></li>
+			<li><a href="rooms.html">Homestead</a></li>
+			<li><a href="rooms.html">Restaurant</a></li>
 		</ul>
 		</li>
 		<li><a href="contact.html">Contact</a></li>
@@ -58,92 +59,46 @@
 	<a class="to-top-button" href="#"><i class="fas fa-angle-up"></i></a>
 	<img src="img/color-bar2.png" id="color-bar">
 	
-	<div class="header-image-contact">
-		<h1>Contact</h1>
+	<div class="header-image-about">
+		<h1>About Farm 215</h1>
+		<p>One of the pioneers in sustainable hospitality in South Africa with conservation at its core.</p>
 		<hr>
 	</div>
 	
 	<main>
-		<section class="contact-info-left">
-			<div class="info-contact">
-				<h4>come and visit us</h4>
-				<h2>Contact</h2>
+		<section class="about-info-left">
+			<div class="info-about">
+				<h4>about the farm</h4>
+				<h2>The Setting</h2>
 				<hr>
+				<p>Farm 215 - Nature Retreat and fynbos reserve is a sustainable destination in the Uilkraal Valley between Stanford and Cape Agulhas in the Western Cape’s unspoiled Southern Overberg; a 20 km drive from the fishing town of Gansbaai on the Walkerbay. The retreat is reached via a wobbly farm road which has a varying level of smoothness, but is always suitable for all normal cars.</p>
+
+				<p>Far removed from the daily grind of life, farm 215 is a private, intimate and secluded retreat where you can enjoy spacious accommodation, tranquility, an overpowering sense of space and the unique nature of the Cape Floral Kingdom, the richest floral biome in the world. The retreat lies at the foot of “fynbos”-covered mountains in the middle of a pristine private nature reserve of 800 hectares and enjoys undisturbed views over the Agulhas Plains towards the ocean. The reserve is a Protected Area and a sanctuary for hundreds of rare, endemic and common fynbos plants of the threatened Cape Floral Kingdom, known for its weird and wonderful shapes and flowers. </p>
+				
+			<div class="accom-list">
+				<h4>Accommodation is offered in 2 types of guest-units (6 in total):</h4>
 				<ul>
-					<li><strong>Farm 215</strong> 
-					<li>Hartebeeskloof &amp Kouberg | Overberg Municipality</li> 
-					<li>PO Box 1314 Gansbaai 7720</li> 
-					<li>Western Cape South Africa</li>
-				</ul>
-			
-			<div class="phone-icon">
-			<i class="fas fa-phone"></i>
-			</div>
-			
-			<div class="telephone-numbers">
-				<ul>
-					</i><li>+27 (0) 28 388 0920</li> 
-					<li>+27 (0) 82 097 1655</li> 
+					<li>three modern and freestanding fynbos-suites;</li>
+					<li>three spacious rooms in the old homestead.</li>
 					</ul>
-			
-			<div class="e-mail-address">
-				<p>Sometimes reception is bad in the reserve, if we don’t answer please leave a message or send an email to the below address:</p>
-				<i class="far fa-envelope"></i><a href="mailto:bookings@farm215.com">bookings@farm215.co.za</a>
-
-				<p>Complete the form below or send us an email:</p>
-
-				
-
-			
-</div>
-				
-</section>
-
-<div class="clearfix"></div>
-
-<form action="contact.php" method="POST" class="contact-form">
-		
-			
-			<ul>
-				<li>
-				<input type="text" name="firstname" required placeholder="First Name" class="field-divided">
-					</li>
-				<li>
-				<input type="text" name="surname" required placeholder="Surname" class="field-divided">
-				</li>
-				
-				<li>
-				<input type="text" name="email" required placeholder="E-mail Address" class="field-divided">
-				</li>
-				
-				<li>
-				<input type="text" name="subject" required placeholder="Subject" class="field-divided">
-						</li>
-
-				<li>
-				<input type="text" name="message" required placeholder="Message" class="field-long field-divided">
-				</li>
-	
-
-
-				<input type="submit" name="Send">
-
-
-	
-
-				
-
-			</ul>
-			
-	</form>
-
-			
-	<section class="location">
-			<div class="map">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13140.790771920954!2d19.510687!3d-34.573864!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc60ae985023f588e!2sFarm+215+-+Nature+retreat+%26+fynbos+reserve!5e0!3m2!1sen!2sza!4v1529506843482" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<a href="rooms.html">Book a Room</a>
 			</div>
 
+			<p>The retreat of farm 215 is clearly off the beaten track in a very natural area and its buildings are in an isolated position. Nature rules supreme. Where all attention is given to the comfort and quality of the accommodation and its amenities, farm 215 is not a resort, but a place where people can retire in rural and natural surroundings in a down-to-earth and relaxed guesthouse.</p>
+
+			<p>Farm 215 has been set up and is managed as a sustainable operation and is a Protected Area (PA) under the National Environmental Management Protected Areas Act and in partnership with Fauna and Flora International. We place the integrity of the natural ecosystem around us in the first place and aim to keep the footprint of both ourselves and our guests as low as possible. Farm 215´s partner, the African Horse Company has its base station on farm 215 and the reserve is the first reforestation site of the Trees for Tourism program of the South African Reforestation Trust.</p>
+		
+
+	</section>
 			
+	<section class="about-info-right">
+			<div class="about-image-1">
+				<a href="img/flowers-2.png" data-lightbox="protea" data-title="Farm"><img src="img/flowers-2.png" alt="fynbos" title="Natural flora in the region"></a>
+			</div>
+
+			<div class="about-image-2">
+				<img src="img/coast.png" alt="coast" title="Coast line of the Overberg Region">
+			</div>
 
 	
 			<div class="floral-bg">
@@ -152,11 +107,9 @@
 
 
 
+			<div class="clearfix"></div>
 		</section>
 
-
-
-			<div class="clearfix"></div>
 		
 	</main>
 	
@@ -171,7 +124,7 @@
 				<ul>
 				<li><a href="index.html">Home</a></li>
 			<li><a href="about-us.html">About Us</a></li>
-			<li><a href="#">Book A Room</a></li>
+			<li><a href="rooms.html">Book A Room</a></li>
 			<li><a href="contact.html">Contact Us</a></li>
 		</div>
 	</ul>
@@ -191,7 +144,7 @@
 				</u>
 				</article>
 
-			<form action="action-page.php">
+			<form action="action-page.php" class="new-form">
 				<div class="holding-block-container">
 				<div class="subscribe-container">
 					<p2><strong>Subscribe to our Newsletter</strong></p2>
