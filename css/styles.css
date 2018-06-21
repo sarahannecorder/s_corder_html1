@@ -511,8 +511,104 @@ transition: color 0.5s ease;
 	clip-path: inset(0px 0px 100px 0px);
 	margin-top: -200px;
 	margin-right: 10px;
-  /* Also can take single values to make all sides the same, or 2 values (vert/horz), or 3 values (top/horz/bottom). */
 }
+
+/* BODY STYLES - header image styles - rooms page */
+
+.header-image-rooms {
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	border: white 2px solid;
+	background-image: url("../img/rooms-header 2.png");
+	height: 500px;
+	box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0px 4px 40px 3px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.header-image-rooms h1 {
+	color: black;
+	display: block;
+	text-align: center;
+	margin-top: 220px;
+	padding: 0;
+	color: whitesmoke;
+	font-size: 70px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+	letter-spacing: 6px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.2em;
+	font-weight: 500;
+	text-transform: uppercase;
+	}
+
+	.header-image-rooms hr {
+	border: none;
+	background-color: #D07828;
+	margin-top: -5px;
+	height: 5px;
+	width: 100px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+
+	}
+
+	.header-image-rooms p {
+	color: whitesmoke;
+	display: block;
+	text-align: center;
+	padding: 0;
+	font-size: 25px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+	letter-spacing: 2px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.2em;
+	font-weight: 500;
+	margin-top: -40px;
+
+	}
+
+	.about-info-left p {
+	width: 1200px;
+	margin-top: 40px;
+	font-size: 18px;
+	color: #353535;
+	line-height: 1.5em;
+
+	}
+
+.info-about a {
+padding: 15px;
+position: block;
+line-height: 12;
+color: #D07828 ;
+border: #D07828 3px solid;
+letter-spacing: 1px;
+text-transform: uppercase;
+font-weight: 700;
+text-decoration: none;
+width: 80px;
+transition: color 0.5s ease;
+margin-top: -200px;
+
+
+}
+
+.info-about a:hover {
+	background-color: #D07828;
+	color: whitesmoke;
+
+
+}
+
+
+
+
 
 /* MAIN STYLES - section1- contact page */
 
@@ -652,27 +748,25 @@ transition: color 0.5s ease;
 
 .map {
 	float: right;
-	background-color: red;
-	margin-right: 100px;
-	margin-bottom: 100px;
 
 }
 
 .map iframe {
-	width: 400px;
-	
-	margin-top: 200px;
+	width: 900px;
+	height: 600px;
+	padding-right: 40px;
 	display: inline;
+	margin-top: -800px;
 
 
 
 }
 
 .contact-form {
-	
 	width: 600px;
 	margin: 0;
 	float: left;
+	padding-left: 40px;
 }
 
 
@@ -725,7 +819,7 @@ transition: color 0.5s ease;
 padding: 20px;
 position: block;
 color: #D07828 ;
-border: #D07828 3px solid;
+border: #D07828 4px solid;
 letter-spacing: 2px;
 text-transform: uppercase;
 font-weight: 700;
