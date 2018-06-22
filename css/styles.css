@@ -773,16 +773,20 @@ main {
 	float: right;
 	padding: 60px;
 	margin-top: -540px;
+	border-radius: 3px;
 }
 .rooms-2 {
 	float: right;
 	padding: 60px;
+	border-radius: 3px;
 }
 .rooms-3 {
 	float: right;
 	padding: 60px;
 	margin-top: 540px;
 	margin-right: -760px;
+
+
 }
 /* Main STYLES - section 3 - Location */
 
